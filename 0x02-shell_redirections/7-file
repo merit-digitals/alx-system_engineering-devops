@@ -1,8 +1,2 @@
 #!/bin/bash
-
-filename='*\\"Best School"\\*$?******:)'
-cleaned_filename=$(echo "$filename" | sed 's/[*\\?"<>|:]//g')
-content="Best School\n"
-
-echo -e "$content" > "$cleaned_filename"
-
+echo "Best School" > '*\\"Best School"\\*$\\?\\*\\*\\*\\*\\*\\*\\*:)'
